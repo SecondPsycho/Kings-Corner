@@ -38,14 +38,20 @@ A .NET7.0 application to play King's Corner on the command line.
     (You can ignore suits.)
 
     If you run out of cards in the deck, you win!
-    If you can't find a legal move, you lose. Type 'quit' to exit the game.
+    If you can't find a legal move, you lose. Type `quit` to exit the game.
     (Don't feel bad. Not all games are winnable.)
     (Type 'help' to see the controls.)
 
 ## Controls
-      > place <square> (Place a card on the board. Ex: 'place a1')
-      > match <square_1> <square_2> (Match two cards. Ex: 'match a3 b2')
+      > place <square> (Place a card on the board. Ex: `place a1`)
+      > match <square_1> <square_2> (Match two cards. Ex: `match a3 b2`)
       > help (Show this help page)
       > show (Show the board)
       > quit (Exit the game)
-    If there are no legal moves, you lose. Type 'quit' to exit the game.
+    If there are no legal moves, you lose. Type `quit` to exit the game.
+
+## Pro Controls
+    (Some special controls to save typing)
+    <square_1> (Place a card on the board. Ex: `a1`)
+    <square_1> <square_2> (Match two cards. Ex: `a3 b2`)
+    <square_1> (Match a ten with itself. Only works if there's a ten on the square already. Ex: `a1`)
