@@ -1,11 +1,11 @@
 # Kings-Corner
 A .NET7.0 application to play King's Corner on the command line.
 
-**Requirements**
+##Requirements
 -.NET 7.0
 It was written in Windows 10
 
-**Tutorial**
+##Tutorial
     The game is played with an ordinary deck of playing cards. 
     Each turn, you draw a single card and must place it somewhere on a 4x4 grid.
     
@@ -39,7 +39,7 @@ It was written in Windows 10
     (Don't feel bad. Not all games are winnable.)
     (Type 'help' to see the controls.)
 
-**Controls**
+##Controls
       > place <square> (Place a card on the board. Ex: 'place a1')
       > match <square_1> <square_2> (Match two cards. Ex: 'match a3 b2')
       > help (Show this help page)
