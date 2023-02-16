@@ -2,8 +2,11 @@
 A .NET7.0 application to play King's Corner on the command line.
 
 ## Requirements
--.NET 7.0
-It was written in Windows 10
+    -.NET 7.0
+    It was written in Windows 10
+
+## How to Run
+    Open a Windows command prompt, navigate to the Kings-Corner folder and enter `dotnet run`.
 
 ## Tutorial
     The game is played with an ordinary deck of playing cards. 
