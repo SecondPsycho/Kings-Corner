@@ -223,11 +223,14 @@ static Input get_input(string[] deck, string[,] board, int next_card, Globals gl
     string command;
 
     //Handle User Input
-    //Acknowledge alternate 'place' syntax (Forgot to write "place")
+    //Process any two-letter commands
     if (user_input.Length == 2) {
         if (globals.valid_inputs.Contains(user_input)) {
+            //Acknowledge alternate 'match' syntax (just wrote coordinates of a ten)
             if (isTen(board, user_input)) {
                 final_input = calibrate_input(final_input, 3, user_input, user_input);
+
+            //Acknowledge alternate 'place' syntax (Forgot to write "place")
             } else {
                 final_input = calibrate_input(final_input, 2, user_input);
             };
